@@ -7,7 +7,7 @@ conda create --name pycv python=3.6
 activate pycv
 ```
 
-Then, Numpy, matplotlib and Jupyter notebook packages were installed as follow:
+Then, Numpy, Matplotlib and Jupyter packages were installed as follow:
 
 ```
 conda install numpy matplotlib jupyter
@@ -18,7 +18,7 @@ You can clone the notebook, source and images.
 
 ```
 git clone https://vbarboza@github.com/vbarboza/pycv.git
-cv pycv
+cd pycv
 ```
 
 And that's it!
