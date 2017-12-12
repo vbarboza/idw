@@ -25,5 +25,5 @@ And that's it! You can check for my solution notebook [here](https://github.com/
 or run it yourself.
 
 ```
-jupyter notebook pycv.ipnb
+jupyter notebook pycv.ipynb
 ```
