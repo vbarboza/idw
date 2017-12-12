@@ -1,5 +1,7 @@
 # coding=utf-8
 
+# PyCV: Python + OpenCV test
+
 # Developed and tested with:
 #
 # os:                 Windows 10 Pro
@@ -118,8 +120,12 @@ def mark_image(image, circles):
 # Show results
 def show_results(image, result):
     _, ax = plt.subplots(1,2)
+    ax[0].set_title('Input')
     ax[0].imshow(image)
+    ax[0].axis('off')
+    ax[1].set_title('Output')
     ax[1].imshow(result)
+    ax[1].axis('off')
     plt.show()
 
 
